@@ -13,8 +13,20 @@
       body {
         position: relative;
       }
-      li.nav-item:hover {
+      ul.navbar-nav > li.nav-item:hover {
         background-color: grey;
+      }
+      ul.navbar-nav > li.nav-item {
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+      }
+      ul.list-group > .list-group-item {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+      .tab {
+        background-color: black;
       }
     </style>
   </head>
@@ -23,32 +35,32 @@
     <nav class="navbar navbar-dark navbar-expand bg-dark">
       <div class="collapse navbar-collapse justify-content-md-start" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto" style="margin-left: 6%">
-          <li class="nav-item" style="padding-left: 20px; padding-right: 20px">
+          <li class="nav-item">
             <a href="#userMain" class="nav-link">
               <span class="text-white"><i class="fa fa-user"></i>&nbsp;首页</span><span class="sr-only"></span>
             </a>
           </li>
-          <li class="nav-item" style="padding-left: 20px; padding-right: 20px">
+          <li class="nav-item">
             <a href="#userWork" class="nav-link">
               <span class="text-white"><i class="fa fa-wpforms"></i>&nbsp; 作品相关</span><span class="sr-only"></span>
             </a>
           </li>
-          <li class="nav-item" style="padding-left: 20px; padding-right: 20px">
+          <li class="nav-item">
             <a href="#userSup" class="nav-link">
               <span class="text-white"><i class="fa fa-signing"></i>&nbsp; 应援团</span><span class="sr-only"></span>
             </a>
           </li>
-          <li class="nav-item" style="padding-left: 20px; padding-right: 20px">
+          <li class="nav-item">
             <a href="#userRes" class="nav-link">
               <span class="text-white"><i class="fa fa-file"></i>&nbsp; 资源区</span><span class="sr-only"></span>
             </a>
           </li>
-          <li class="nav-item" style="padding-left: 20px; padding-right: 20px">
+          <li class="nav-item">
             <a href="#userPic" class="nav-link">
               <span class="text-white"><i class="fa fa-picture-o"></i>&nbsp; 图库</span><span class="sr-only"></span>
             </a>
           </li>
-          <li class="nav-item" style="padding-left: 20px; padding-right: 20px">
+          <li class="nav-item">
             <a href="#userPic" class="nav-link">
               <span class="text-white"><i class="fa fa-money"></i>&nbsp; 赞助</span><span class="sr-only"></span>
             </a>
@@ -60,9 +72,29 @@
         </form>
       </div>
     </nav>
-    <div class="page-wrapper" style="text-align: center;">
+    <div class="page-wrapper">
       <section class="section-one">
-        <span>section 1</span>
+        <div style="border-width: 4px; margin-top: 30px; margin-bottom: 50px; width: 500px; margin-left: auto; margin-right: 10%;"><!--第一列最左边区域-->
+          <div style="border-radius: 5px;">
+            <ul class="nav nav-tabs nav-fill justify-content-center">
+              <li role="presentation" class="nav-item"><a class="nav-link active" href="#">近期の资讯</a></li>
+              <li role="presentation" class="nav-item"><a class="nav-link" href="#">公告栏</a></li>
+              <li role="presentation" class="nav-item"><a class="nav-link" href="#">春日酱的秘密</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">凉宫春日应援团人数破万</a><span style="padding-top: 8px">8102/12/4</span></li>
+              <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">麻将给了我创作的灵感——专访谷川流</a><span style="padding-top: 8px">8102/12/4</span></li>
+              <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">京都动画：凉宫春日系列新剧场版制作已开始</a><span style="padding-top: 8px">8102/12/4</span></li>
+              <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">不可阻挡！团长实现世萌三连冠</a><span style="padding-top: 8px">8102/12/4</span></li>
+              <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">平野绫：在凉宫3中献声感觉很棒，期待剧场版</a><span style="padding-top: 8px">8102/12/4</span></li>
+            </ul>
+          </div>
+          <div style="padding-left: 430px">
+            <span><a href="#">更多>></a></span>
+          </div>
+        </div>
       </section>
       <section class="section-two" style="background-color:lawngreen">
         <span>section 2</span>
@@ -71,7 +103,7 @@
         <span>section 3</span>
       </section>
     </div>
-    <footer class="footer" style="padding-top: 30px; padding-bottom: 30px; text-align: center; background-color: khaki">
+    <footer class="footer" style="padding-top: 20px; padding-bottom: 10px; text-align: center; background-color: lightgoldenrodyellow">
       <span>
         <p><a href="//www.dmzj.com/aboutus/">公司介绍</a> | <a href="//www.dmzj.com/aboutus/contactus.html">联系我们</a> | <a href="//www.dmzj.com/zt/dmzj201712/userprot.html">服务协议</a> | <a href="//www.dmzj.com/zt/dmzj201712/dispute.html">纠纷处理流程</a> | <a href="//www.dmzj.com/zt/dmzj201712/parent.html">家长监护工程</a> | <a href="//www.dmzj.com/zt/dmzj201712/copyright.html">版权说明</a></p>
         <p>抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
