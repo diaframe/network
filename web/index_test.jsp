@@ -12,6 +12,7 @@
     <style type="text/css">
       body {
         position: relative;
+        background-color: rgb(224, 224, 224);
       }
       ul.navbar-nav > li.nav-item:hover {
         background-color: grey;
@@ -73,35 +74,77 @@
       </div>
     </nav>
     <div class="page-wrapper">
-      <section class="section-one">
-        <div style="border-width: 4px; margin-top: 30px; margin-bottom: 50px; width: 500px; margin-left: auto; margin-right: 10%;"><!--第一列最左边区域-->
-          <div style="border-radius: 5px;">
-            <ul class="nav nav-tabs nav-fill justify-content-center">
-              <li role="presentation" class="nav-item"><a class="nav-link active" href="#">近期の资讯</a></li>
-              <li role="presentation" class="nav-item"><a class="nav-link" href="#">公告栏</a></li>
-              <li role="presentation" class="nav-item"><a class="nav-link" href="#">春日酱的秘密</a></li>
-            </ul>
-          </div>
-          <div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">凉宫春日应援团人数破万</a><span style="padding-top: 8px">8102/12/4</span></li>
-              <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">麻将给了我创作的灵感——专访谷川流</a><span style="padding-top: 8px">8102/12/4</span></li>
-              <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">京都动画：凉宫春日系列新剧场版制作已开始</a><span style="padding-top: 8px">8102/12/4</span></li>
-              <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">不可阻挡！团长实现世萌三连冠</a><span style="padding-top: 8px">8102/12/4</span></li>
-              <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">平野绫：在凉宫3中献声感觉很棒，期待剧场版</a><span style="padding-top: 8px">8102/12/4</span></li>
-            </ul>
-          </div>
-          <div style="padding-left: 430px">
-            <span><a href="#">更多>></a></span>
+      <div class="section-one" style="height: 600px; display: flex;">
+        <div style="float: left; width: 60%; align-self: center;">
+          <div style="left: 12%; float: left; width: 85%; position: relative;" id="carouselContents" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselContents" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselContents" data-slide-to="1"></li>
+              <li data-target="#carouselContents" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="image/sos.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>资讯1</h5>
+                  <p>SOS团全员</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="image/sos.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>资讯2</h5>
+                  <p>还是SOS团全员</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="image/sos.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>资讯3</h5>
+                  <p>怎么老是SOS团全员</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselContents" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselContents" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>            
           </div>
         </div>
-      </section>
-      <section class="section-two" style="background-color:lawngreen">
+        
+        <div style="float: right; width: 40%; align-self: center;">
+          <div style="left: 8%; float: left; position: relative;"><!--第一列最左边区域-->
+            <div style="width: 140px; text-align: center;">
+              <div style="border-top-left-radius: 10px; border-top-right-radius: 10px; background-color: antiquewhite; padding-top: 15px; padding-bottom: 15px; font-size: 23px;">
+                <span>公告板</span>
+              </div>
+            </div>
+            <div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item" style="text-align: center; font-size: 23px;"><strong><a class="nav-link" style="color:steelblue" href="#">凉宫春日应援团网站即将上线</a></strong></li>
+                <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">凉宫春日应援团人数破百万</a><span style="padding-top: 8px">8102/4/1</span></li>
+                <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">麻将给了我创作的灵感——专访谷川流</a><span style="padding-top: 8px">8102/4/1</span></li>
+                <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">京都动画：“漫无止境的八月”制作补完计划已启动</a><span style="padding-top: 8px">8102/4/1</span></li>
+                <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">不可阻挡！团长实现世萌8连冠</a><span style="padding-top: 8px">8102/4/1</span></li>
+                <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">平野绫：在凉宫3中献声感觉很棒</a><span style="padding-top: 8px">8102/4/1</span></li>
+                <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">春日酱出品个人第15532本女装写真</a><span style="padding-top: 8px">8102/4/1</span></li>
+                <li class="list-group-item justify-content-between d-flex"><a class="nav-link" href="#">某网络部成员表示做网站真让人头大</a><span style="padding-top: 8px">8102/4/1</span></li>
+                <li class="list-group-item" style="background-color:lightcyan; text-align: center;"><a class="nav-link" href="#">更多消息</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-two" style="background-color:lawngreen">
         <span>section 2</span>
-      </section>
-      <section class="section-three">
+      </div>
+      <div class="section-three">
         <span>section 3</span>
-      </section>
+      </div>
     </div>
     <footer class="footer" style="padding-top: 20px; padding-bottom: 10px; text-align: center; background-color: lightgoldenrodyellow">
       <span>
