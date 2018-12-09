@@ -15,12 +15,12 @@
         background-color: rgb(224, 224, 224);
       }
       ul.navbar-nav > li.nav-item:hover {
-        background-color: grey;
+        background-color: #A9E2F3;
       }
       ul.navbar-nav > li.nav-item {
-        padding-left: 15px;
-        padding-right: 15px;
-        border-radius: 5px;
+        padding-left: 13px;
+        padding-right: 13px;
+        border-radius: 8px;
       }
       ul.list-group > .list-group-item {
         padding-top: 0px;
@@ -33,37 +33,37 @@
   </head>
   <body>
     <header class="header" style="width: 100%; padding-bottom: 11%; background-image: url(image/header.jpg); background-size: contain;"></header>
-    <nav class="navbar navbar-dark navbar-expand bg-dark">
+    <nav class="navbar navbar-expand" style="background-image: url(image/nav_bar.jpg); background-size: contain;">
       <div class="collapse navbar-collapse justify-content-md-start" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto" style="margin-left: 6%">
           <li class="nav-item">
             <a href="#userMain" class="nav-link">
-              <span class="text-white"><i class="fa fa-user"></i>&nbsp;首页</span><span class="sr-only"></span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#userWork" class="nav-link">
-              <span class="text-white"><i class="fa fa-wpforms"></i>&nbsp; 作品相关</span><span class="sr-only"></span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#userSup" class="nav-link">
-              <span class="text-white"><i class="fa fa-signing"></i>&nbsp; 应援团</span><span class="sr-only"></span>
+              <span class="text-dark"><i class="fa fa-user"></i>&nbsp;首页</span><span class="sr-only"></span>
             </a>
           </li>
           <li class="nav-item">
             <a href="#userRes" class="nav-link">
-              <span class="text-white"><i class="fa fa-file"></i>&nbsp; 资源区</span><span class="sr-only"></span>
+              <span class="text-dark"><i class="fa fa-file"></i>&nbsp; 资源区</span><span class="sr-only"></span>
             </a>
           </li>
           <li class="nav-item">
             <a href="#userPic" class="nav-link">
-              <span class="text-white"><i class="fa fa-picture-o"></i>&nbsp; 图库</span><span class="sr-only"></span>
+              <span class="text-dark"><i class="fa fa-picture-o"></i>&nbsp; 图库</span><span class="sr-only"></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#userWork" class="nav-link">
+              <span class="text-dark"><i class="fa fa-wpforms"></i>&nbsp; 作品相关</span><span class="sr-only"></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#userSup" class="nav-link">
+              <span style="color: #ff7766"><i class="fa fa-signing"></i>&nbsp; 应援团</span><span class="sr-only"></span>
             </a>
           </li>
           <li class="nav-item">
             <a href="#userPic" class="nav-link">
-              <span class="text-white"><i class="fa fa-money"></i>&nbsp; 赞助</span><span class="sr-only"></span>
+              <span style="color: #ff7766"><i class="fa fa-money"></i>&nbsp; 赞助</span><span class="sr-only"></span>
             </a>
           </li>
         </ul>
@@ -75,8 +75,8 @@
     </nav>
     <div class="page-wrapper">
       <div class="section-one" style="height: 600px; display: flex;">
-        <div style="float: left; width: 60%; align-self: center;">
-          <div style="left: 12%; float: left; width: 85%; position: relative;" id="carouselContents" class="carousel slide" data-ride="carousel">
+        <div style="float: left; width: 57%; align-self: center;">
+          <div style="left: 11%; float: left; width: 85%; position: relative;" id="carouselContents" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselContents" data-slide-to="0" class="active"></li>
               <li data-target="#carouselContents" data-slide-to="1"></li>
@@ -116,8 +116,8 @@
           </div>
         </div>
         
-        <div style="float: right; width: 40%; align-self: center;">
-          <div style="left: 8%; float: left; position: relative;"><!--第一列最左边区域-->
+        <div style="float: right; width: 43%; align-self: center;">
+          <div style="left: 6%; float: left; position: relative;"><!--第一列最左边区域-->
             <div style="width: 140px; text-align: center;">
               <div style="border-top-left-radius: 10px; border-top-right-radius: 10px; background-color: antiquewhite; padding-top: 15px; padding-bottom: 15px; font-size: 23px;">
                 <span>公告板</span>
