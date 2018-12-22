@@ -9,6 +9,9 @@ body, button, input, select, textarea {
 
 a, a:hover {
   text-decoration: none;
+  color: #333;
+  transition: all .15s ease-out;
+  cursor: pointer;
 }
 
 ::selection {
