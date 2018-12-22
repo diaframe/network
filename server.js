@@ -18,5 +18,6 @@ var server = http.createServer(function(req, res) {
   });
 });
 
+console.log('pid: ' + process.pid);
 console.log('start server');
 server.listen(2233);
