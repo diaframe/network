@@ -10,7 +10,7 @@ $(function() {
       $('#session1').css('margin-top', 54);
     } else {
       $("#banner").removeClass("fixed-top");
-      $('#session1').css('margin-top', 0);
+      $('#session1').css('margin-top', 30);
     }
   });
 });
