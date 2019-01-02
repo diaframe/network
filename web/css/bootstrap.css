@@ -1811,10 +1811,11 @@ pre code {
   background: #00b4ef;
 }
 .form-horizontal{
-  background: rgb(107, 175, 244, 0.1);
+  background: rgba(107, 175, 244, 0.1);
   padding-bottom:70px;
   border-radius: 15px;
   text-align:center;
+  position:absolute;
 }
 .form-horizontal .heading{
   display: block;
@@ -6190,7 +6191,6 @@ button.close {
 .bg-primary {
   background-color: #007bff !important;
 }
-
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
@@ -6260,7 +6260,7 @@ button.bg-light:focus {
   background-color: #343a40 !important;
 }
 .bg-blacktrans {
-  background-color:rgba(6,10,24,0.3) !important;
+  background-color:rgba(6,10,24,0.8) !important;
 }
 .bg-black {
   background-color: #060a18 !important;

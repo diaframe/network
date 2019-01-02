@@ -1,5 +1,5 @@
 .im {
-    /*background-image: url("image/timg.jpg");*/
+    background-color: rgb(242,245,250);
     background-size:cover;
 }
 .bt{
@@ -39,4 +39,19 @@
 .image{
     /*background-image: url("image/xingkong2.jpg");*/
     /*width: 70%;*/
+}
+.center{
+    position:fixed;
+    top:0;
+    bottom:0;
+    margin:0 auto;
+}
+.bg-image{
+    background-image: url(../image/xingkong2.jpg);
+}
+.triangle {
+    position:absolute;
+    border-width:5px 5px 5px 5px;
+    border-style:solid;
+    border-color:transparent transparent black black;
 }

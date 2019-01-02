@@ -8,21 +8,19 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/my.css" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery.js"></script>
 </head>
 <body class="im">
-<div style="border-radius: 5px;">
-<div style="padding-top:95px"/>
+<div class="bg-image ">
+<div style="padding-top:95px;"/>
 <nav class="navbar navbar-expand-md bg-blacktrans" style="margin-top:50px;">
     <div class="collapse navbar-collapse justify-content-md-start" id="navbarSupportedContent" style="margin-left: 370px">
         <ul class="navbar-nav">
-            <li class="active"><a href="#userMain" class="dropdown-item"style="margin-top: 10px;">
+            <li class="active"><a href="success1.jsp" class="dropdown-item" style="margin-top: 10px;">
                 <span class="text-white"><i class="fa fa-user"></i>&nbsp;首页</span><span class="sr-only"></span></a>
             </li>
             <div style="margin-left:80px;"></div>
-            <li class="active"><a href="#userWork" class="dropdown-item" style="margin-top:10px;">
+            <li class="active"><a href="main.jsp" class="dropdown-item" style="margin-top:10px;" target="MyWork">
                 <span class="text-white"><i class="fa fa-wpforms"></i>&nbsp; 作品相关</span><span class="sr-only"></span></a>
-
             </li>
             <div style="margin-left:80px;"></div>
             <li class="active"><a href="#userSup" class="dropdown-item" style="margin-top: 10px;">
@@ -48,8 +46,10 @@
     </div>
 </nav>
 </div>
+<div id="main">
 <%--第一列最左边区域--%>
 <div class="tab" style="margin-top:10px;margin-left:20%;width:130px;padding-top:25px;padding-left:15px;">
+    <div class="triangle" style="margin-left: 115px;margin-top: -25px"></div>
     <a class="text-white" style="font-size:18px;">近期の资讯</a>
 </div>
 <form class="horizontal" style="width:40%; margin-left:20%;margin-top:20px">
@@ -66,6 +66,7 @@
 </form>
 <%--第一列最右边区域--%>
 <div class="tab" style="margin-top:10px;margin-left:62%;width:100px;padding-top:25px;padding-left:15px;">
+    <div class="triangle" style="margin-left:85px;margin-top: -25px"></div>
     <a class="text-white" style="font-size:18px;">公告栏</a>
 </div>
 <form class="horizontal" style="width:18%; margin-left:62%;margin-top:20px">
@@ -82,6 +83,7 @@
 </form>
 <%--第二列区域--%>
 <div class="tab" style="margin-top:530px;margin-left:20%;width:150px;padding-top:25px;padding-left:15px;">
+    <div class="triangle" style="margin-left: 135px;margin-top: -25px"></div>
     <a class="text-white" style="font-size:18px;">创作部作品公示</a>
 </div>
 <form class="horizontal" style="width:60%; margin-left:20%;margin-top:540px">
@@ -97,6 +99,7 @@
     </table>
 </form>
 <div class="tab" style="margin-top:1050px;margin-left:20%;width:150px;padding-top:25px;padding-left:15px;">
+    <div class="triangle" style="margin-left: 135px;margin-top: -25px"></div>
     <a class="text-white" style="font-size:18px;">优秀作品展示</a>
 </div>
 <form class="horizontal" style="width:60%; margin-left:20%;margin-top:1060px">
@@ -111,5 +114,6 @@
         </tr>
     </table>
 </form>
+</div>
 </body>
 </html>
